@@ -74,40 +74,7 @@ export const Contact = () => {
             </div>
           </div>
           
-          <Card className="bg-gray-900 border-gray-700">
-            <CardHeader>
-              <CardTitle className="text-white">Send me a message</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <div className="grid grid-cols-2 gap-4">
-                <Input 
-                  placeholder="First Name" 
-                  className="bg-gray-800 border-gray-600 text-white placeholder-gray-400"
-                />
-                <Input 
-                  placeholder="Last Name" 
-                  className="bg-gray-800 border-gray-600 text-white placeholder-gray-400"
-                />
-              </div>
-              <Input 
-                placeholder="Email" 
-                type="email" 
-                className="bg-gray-800 border-gray-600 text-white placeholder-gray-400"
-              />
-              <Input 
-                placeholder="Subject" 
-                className="bg-gray-800 border-gray-600 text-white placeholder-gray-400"
-              />
-              <Textarea 
-                placeholder="Your message..." 
-                rows={5}
-                className="bg-gray-800 border-gray-600 text-white placeholder-gray-400"
-              />
-              <Button className="w-full bg-cyan-500 hover:bg-cyan-600 text-white">
-                Send Message
-              </Button>
-            </CardContent>
-          </Card>
+          
         </div>
         
         <div className="text-center mt-16 pt-8 border-t border-gray-700">
